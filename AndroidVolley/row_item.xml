@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="20"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/ID"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="23"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/userID"
+        android:layout_toRightOf="@id/ID"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="Cars"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/type"
+        android:layout_toRightOf="@id/userID"/>
+
+
+</RelativeLayout>
